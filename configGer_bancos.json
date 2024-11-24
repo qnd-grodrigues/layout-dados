@@ -1,0 +1,11 @@
+{
+    "namespace": "Configuração Geral",
+    "type": "record",
+    "name": "Bancos",
+    "doc": "Schema contendo a estrutura do cadastro de bancos",
+    "fields": [
+        {"name": "identificador", "type": ["int", "string"], "doc": "Identificador único da tabela"},
+        {"name": "numero_banco", "type": ["int", "string"], "doc": "Código do banco"},
+        {"name": "nome", "type": "string", "size": 250, "doc": "Nome do banco"}
+    ]
+}
