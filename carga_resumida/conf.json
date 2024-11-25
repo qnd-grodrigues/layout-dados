@@ -1,0 +1,380 @@
+[
+  {
+    "projeto": "Vis\u00e3o Prev",
+    "codeProjeto": "2",
+    "preprocessing_date": { "$date": "2024-11-25 13:15:04.001235" },
+    "extractionDate": { "$date": "2024-11-25 13:13:15.910999" },
+    "reprocessing": false,
+    "carga": [
+      {
+        "modulo": {
+          "Configura\u00e7\u00f5es Gerais": {
+            "conf": {
+              "process": "Configuracoes/Configuracoes Gerais",
+              "order": 0,
+              "time": "0.0 min",
+              "count": 19,
+              "active_sequencing": true
+            },
+            "collections": [
+              {
+                "file": "Tipo_Endereco.json",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              {
+                "file": "Finalidade_Conta_Bancaria.json",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              {
+                "file": "Tipo_Conta_Bancaria.json",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              { "file": "Bancos.json", "sequence": 0, "loop_Counter": false },
+              { "file": "Cidades.json", "sequence": 0, "loop_Counter": false },
+              {
+                "file": "Situacao_Configuracao.json",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              { "file": "Paises.json", "sequence": 0, "loop_Counter": false },
+              {
+                "file": "Tipo_Documento.json",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              {
+                "file": "Tipo_Email.json",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              {
+                "file": "Tipo_Contrato_Trabalho.json",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              {
+                "file": "Classificacao_Doencas.json",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              {
+                "file": "Parentesco.json",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              {
+                "file": "Tipo_Correspondencia.json",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              {
+                "file": "Estado_Civil.json",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              {
+                "file": "Tipo_Unidade_Monetaria.json",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              {
+                "file": "Tipo_Telefone.json",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              {
+                "file": "Tipo_Desligamento.json",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              { "file": "Estados.json", "sequence": 0, "loop_Counter": false },
+              {
+                "file": "Tipo_Regime_Tributario.json",
+                "sequence": 0,
+                "loop_Counter": false
+              }
+            ]
+          }
+        }
+      },
+      {
+        "modulo": {
+          "Configura\u00e7\u00f5es Previdenci\u00e1rias": {
+            "conf": {
+              "process": "Configuracoes/Configuracoes Previdenciarias",
+              "order": 1,
+              "time": "0.0 min",
+              "count": 24,
+              "active_sequencing": true
+            },
+            "collections": [
+              {
+                "file": "Grupo_Beneficio.csv",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              {
+                "file": "Tipo_Beneficio.csv",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              {
+                "file": "Patrocinadora.csv",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              {
+                "file": "Tipo_Companhia.csv",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              { "file": "Entidades.csv", "sequence": 0, "loop_Counter": false },
+              {
+                "file": "Tipo_Entidade.csv",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              {
+                "file": "Perfil_Investimento.csv",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              {
+                "file": "Unidade_Monetaria.csv",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              {
+                "file": "Valor_Unidade_Monetaria.json",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              {
+                "file": "Classes_Participacao.csv",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              {
+                "file": "Situacao_Participacao.csv",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              {
+                "file": "Tipo_Participacao.csv",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              {
+                "file": "Metodo_Pagamento.csv",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              {
+                "file": "Conta_Previdenciaria.csv",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              {
+                "file": "Tipo_Conta_Previdenciaria.csv",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              {
+                "file": "Tipo_Pensao.csv",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              { "file": "Planos.json", "sequence": 0, "loop_Counter": false },
+              {
+                "file": "Formato_Plano.csv",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              {
+                "file": "Situacao_Plano.csv",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              {
+                "file": "Tipo_Plano.csv",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              {
+                "file": "Tipo_Representacao.csv",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              {
+                "file": "Suporte_Rubrica.json",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              { "file": "Carencia.csv", "sequence": 0, "loop_Counter": false },
+              {
+                "file": "Tipo_Carencia.csv",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              {
+                "file": "Rubricas.csv",
+                "sequence": 0,
+                "loop_Counter": false
+              }
+            ]
+          }
+        }
+      },
+      {
+        "modulo": {
+          "Cadastro Previdenci\u00e1rio": {
+            "conf": {
+              "process": "Cadastro Previdenci\u00e1rio",
+              "order": 2,
+              "time": "0.0 min",
+              "count": 6,
+              "active_sequencing": true
+            },
+            "collections": [
+              { "file": "Pessoa - Sem Fonte", "sequence": 0, "loop_Counter": false },
+              { "file": "Pessoa - Com Fonte", "sequence": 0, "loop_Counter": false },
+              {
+                "file": "Beneficiarios.csv",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              {
+                "file": "Historico_Emprego.csv",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              {
+                "file": "Dependentes.csv",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              {
+                "file": "Grupo_Vinculado.json",
+                "sequence": 0,
+                "loop_Counter": false
+              }
+            ]
+          }
+        }
+      },
+      {
+        "modulo": {
+          "Arrecadacao": {
+            "conf": {
+              "process": "Arrecadacao",
+              "order": 3,
+              "time": "0.0 min",
+              "count": 5,
+              "active_sequencing": true
+            },
+            "collections": [
+              {
+                "file": "Tipo_Conta_Transacao.csv",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              {
+                "file": "Importacao_Salario.json",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              {
+                "file": "Ocorrencia.json",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              {
+                "file": "Registro_de_Contribuicao - 295 2014.json",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              {
+                "file": "Registro_de_Contribuicao - 295 2015.json",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              {
+                "file": "Registro_de_Contribuicao - 295 2016.json",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              {
+                "file": "Movimento_Conta - 295 2014.json",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              {
+                "file": "Saldo_Conta - 295 2014.json",
+                "sequence": 0,
+                "loop_Counter": false
+              }
+            ]
+          }
+        }
+      },
+      {
+        "modulo": {
+          "Concessao": {
+            "conf": {
+              "process": "Concessao",
+              "order": 4,
+              "time": "0.0 min",
+              "count": 4,
+              "active_sequencing": true
+            },
+            "collections": [
+              {
+                "file": "Beneficios - 295 2014.json",
+                "sequence": 0,
+                "loop_Counter": false
+              }
+            ]
+          }
+        }
+      },
+      {
+        "modulo": {
+          "Folha Pagamento": {
+            "conf": {
+              "process": "Folha Pagamento",
+              "order": 4,
+              "time": "0.0 min",
+              "count": 4,
+              "active_sequencing": true
+            },
+            "collections": [
+              {
+                "file": "Planejamentos_Folha - 295 2014.json",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              {
+                "file": "Planejamentos_Folha - 295 2015.json",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              {
+                "file": "Planejamentos_Folha - 295 2016.json",
+                "sequence": 0,
+                "loop_Counter": false
+              },
+              {
+                "file": "Folha_Pagamento.json",
+                "sequence": 0,
+                "loop_Counter": false
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]
